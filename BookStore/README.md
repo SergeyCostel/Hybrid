@@ -13,5 +13,5 @@ During the development process, we will work on the following topics:
  * Setting up a server on a local machine or consume a hosted server
  * Analyzing different views, controllers, and factories needed for the app and
 building these components
- * Visually testing the application
+ * Visually testing the application   
 
