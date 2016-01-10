@@ -1,8 +1,8 @@
 # Building a Bookstore App
 
-## About this chapter
+## About this App
 
-So far, we have looked at all the key elements of Ionic. In this chapter, we will build a Bookstore application using that knowledge. The main purpose of this chapter is to consolidate your understanding of Ionic and, at the same time, get a sense of integrating an Ionic app with an existing RESTful service.
+So far, we have looked at all the key elements of Ionic. In this chapter, we will build a Bookstore application using that knowledge. The main purpose of this App is to consolidate your understanding of Ionic and, at the same time, get a sense of integrating an Ionic app with an existing RESTful service.
 
 The Bookstore app we are going to build is a simple multi-page Ionic client that lets a user browse through the books without any authentication. Only when the user wants to add a book to his cart or view his purchase history do we ask the user to login. This approach provides a better user experience by not forcing the user to login to see content, but rather allowing him to login only when needed. 
 
