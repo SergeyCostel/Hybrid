@@ -12,7 +12,7 @@ var limiter = RateLimit({
     // window, delay, and max apply per-ip unless global is set to true 
     windowMs: 60 * 1000, // miliseconds - how long to keep records of requests in memory 
     delayMs: 1000, // milliseconds - base delay applied to the response - multiplied by number of recent hits from user's IP 
-    max: 100, // max number of recent connections during `window` miliseconds before (temporarily) bocking the user. 
+    max: 100, // max number of recent      connections during `window` miliseconds before (temporarily) bocking the user. 
     global: false // if true, IP address is ignored and setting is applied equally to all requests 
 });
 
@@ -38,7 +38,7 @@ app.all('/*', function(req, res, next) {
 // Any URL's that do not follow the below pattern should be avoided unless you 
 // are sure that authentication is not needed
 
-// disabled limited 
+// disabled limited        
 app.all('/api/v1/user/*', [/*limiter ,*/ require('./utils/validateRequest')]);
 app.use('/', require('./routes'));
 // If no route is matched by now, it must be a 404
